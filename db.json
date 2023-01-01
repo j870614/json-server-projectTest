@@ -1,11 +1,56 @@
-{"users": [
-    
+{
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$YRlMyUY8BWjSQ0E3PQSgQe4DgTVThyu07f1Q5.52aPt96Z5RzkL5q",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "email": "test@test.com",
+      "password": "$2a$10$2CMzWPkiCGC68axd/iyA/uOF0VPD/CdyAwgE3KJQtUq3U6dW0nR2C",
+      "id": 2
+    },
+    {
+      "email": "test1@test.com",
+      "password": "$2a$10$Zh5n05YyMPxOvB088epBlORYgINRQle0MGFT6SmKRO/kyz7UorExe",
+      "id": 3
+    },
+    {
+      "email": "j870614@gmail.com",
+      "password": "$2a$10$5iFoFtgFw2b1cDkaL/EIE.5Kf7DYlPZ3BCxltgbnRyj4FpIYaqxAS",
+      "role": "user",
+      "id": 4
+    }
   ],
   "posts": [
-    { "id": 1, "title": "json-server22", "author": "typicode" }
+    {
+      "id": 1,
+      "title": "傳統藝術中心",
+      "body": "國立傳統藝術中心（以下簡稱傳藝中心）原成立於民國91年1月，為文化部（前身為文建會）之附屬機構，主要職掌除了負責統籌規劃全國傳統藝術之維護、調查、研究、保存、傳承與發展等業務外，為導入民間的活力、人力與物力，將屬於公共服務性質及不涉及公權力之設施委託民間專業經營，以拓展傳統藝能的影響層面，因此傳藝中心之組織定位係以「政府機構」為主，園區部分設施及推廣業務「委託民營」為輔，雙軌並行。",
+      "pictureURL": "https://www.px-sunmake.org.tw/assets/images/map/map_cht.jpg?_=1672234246773",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "梅花湖",
+      "body": "梅花湖，位於台灣宜蘭縣冬山鄉得安村，為一座三面環山的天然湖泊。設有環湖道路，全長約4公里，可供遊客騎乘自行車[1]。湖旁沿路有多個自行車租借小販。山上有道教總廟三清宮。",
+      "pictureURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Looking_down_on_Meihua_Lake.jpg/375px-Looking_down_on_Meihua_Lake.jpg",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "title": "彌陀之家東林寺",
+      "body": "彌陀之家大佛為肖楠木質。此肖楠木近三千年，在釋迦本師尚未降生以前，已成數百歲的老樹。其凌逆風霜，歷時悠遠。久為斧斤所赦，數越災禍，並吐納一代時教之精粹，以成彌陀之家東林寺大殿佛龕上所供奉的莊嚴法相。其千年木質，沉極而光，隱然有真金之色。修造為聖像，巍巍崇高，威德自在，獨坐度眾，佛今微笑，因稱念之眾生往生決定，慈悲下視，以座下之人無非極樂聖眾。十方眾生，前來禮拜稱念，彌陀座下領受佛恩，法喜至極，當何以言說！",
+      "pictureURL": "http://www.donglin.tw/images/page04_01_01.jpg",
+      "userId": 1
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "likes": [
+    {
+      "userId": "1",
+      "postId": "3",
+      "id": 1
+    }
+  ]
 }
